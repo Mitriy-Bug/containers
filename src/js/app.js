@@ -9,10 +9,13 @@ team.add(mayor);
 const bowman = new Character("Человек", 'Bowman');
 team.add(bowman);
 const bowman2 = new Character("Человек", 'Bowman');
-team.add(bowman);
-console.log(team);
+//team.add(bowman);
+console.log(team.members.size);
 
-team.addAll(bowman,bowman2);
+//team.add(bowman2);
+//console.log(team);
+
+//team.addAll(bowman,bowman2);
 //console.log(team);
 
 //console.log(team.toArray());

@@ -4,7 +4,7 @@ export default class Team {
     }
     add(newuser){
             if(this.members.has(newuser)){
-                console.error('user already exists - пользователь уже существует');
+                throw new Error('user already exists');
             } else {
                 this.members.add(newuser);
             }
